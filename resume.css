@@ -13,14 +13,12 @@ h1{
 	position: relative;
 	left: 25%;
 }
-.logo {
-  position: relative;
-  margin-top: 2vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-width: 35vw;
-height: 35vw;
+.logo{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%
 }
 .main{
 	position: relative;
