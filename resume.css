@@ -16,10 +16,8 @@ h1{
 img.logo{
 	position: relative;
 	top: 2vw;
-	left: 11vw;
+	left: 5vw;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 .main{
 	position: relative;
@@ -30,7 +28,6 @@ img.logo{
 	margin-top: 10%;
 }
 .pic{
-	position: relative;
 	height: 100%;
 		width:75vw;
 }
