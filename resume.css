@@ -16,6 +16,7 @@ h1{
 img.logo{
 	position: relative;
 	top: 2vw;
+	left: -5vw;
 	display: block;
 }
 .main{
