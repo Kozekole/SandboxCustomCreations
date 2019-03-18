@@ -18,7 +18,8 @@ h1{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 25%
+	width: 25%;
+		left: 20px;
 }
 .main{
 	position: relative;
@@ -26,6 +27,7 @@ h1{
 	margin-right: auto;
 	display: block;
 	margin-top: 5%;
+	left: 11vw;
 }
 .pic{
 	height: 100%;
