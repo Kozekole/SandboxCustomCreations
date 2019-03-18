@@ -16,6 +16,10 @@ h1{
 	position: relative;
 	left: 40vw;
 }
+.body{
+	height:100%;
+	width:100%;
+}
 #feedback-page{
 	text-align:center;
 }
