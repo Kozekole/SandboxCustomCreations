@@ -2,12 +2,11 @@
 /* CSS Document */
 
 @import url("https://fonts.googleapis.com/css?family=Berkshire+Swash|Montserrat");
-
-html{    background:url("asset/Asset 10.png") no-repeat;
-  background-size: cover;
-  height:100%;
-background-repeat: repeat-y;
-}
+		html{
+    background:url('asset/Asset 10.png') repeat-y center center;
+    min-height:100%;
+    background-size:cover;
+	font-size:62.5%;
 h1{
 
 	display: block;
