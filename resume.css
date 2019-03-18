@@ -36,8 +36,12 @@ h1{
 	width:50%;
 }
 .pic{
+	position: relative;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 	height: 100%;
-		width:75vw;
+	width:75vw;
 }
 .backbutton{
 	width:100%;
