@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SandboxCC</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+	<style type="text/css">
+	
+		html{
+    background:url('asset/Asset 10.png') no-repeat center center;
+    min-height:100%;
+	background-repeat: repeat-y;
+    background-size:cover;
+	font-size:62.5%;
+}
+	
+			@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+h1{	
+	color: white;
+	font-size: 6vh;
+	margin: 2vw;
+	text-align: center;
+		}
+.logo {
+  position: relative;
+  margin-top: 5vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+	height:50%;
+}
+		.box{
+		float:left;
+		position: relative;
+		width: 20%;
+		padding-bottom:20%;
+		background:;
+		color:white; 
+		}
+		.titlegallery{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
+			position: relative;
+			top: 5%;
+		}	
+		.innerContent{
+			position:absolute;
+			top:10px;
+			bottom:10px;
+			left:10px;
+			right:10px;
+			background:rgba(72,72,72,0.4);
+			overflow:hidden;
+			padding:10px;
+		}
+		
+		img{
+		max-width: 100%;
+		}
+		
+			.wrapper{
+			margin:5% 5% 5% 5%;
+			}
+		
+		html, body{
+			height:100%;
+		}
+		
+		
+/*-----------SMALL DESKTOP/IPAD VIEW: 3 TILES-------------*/
+		@media only screen and (max-width: 1050px) and (min-width: 651px) {
+			
+			.wrapper{
+				margin-left: 0;
+				margin-right: 0;
+			}
+			
+			.box{
+				width: 33.3%;
+				padding-bottom: 33.3%;
+			}
+		}
+
+/*-----------TABLET VIEW: 2 TILES-------------*/
+		@media only screen and (max-width: 650px) and (min-width:481px){
+			
+			.wrapper{
+				margin-left: 0;
+				margin-right: 0;
+			}
+			
+			.box{
+				width: 50%;
+				padding-bottom: 50%;
+			}
+		}
+		
+/*-----------MOBILE VIEW: 1 TILE-------------*/
+		@media only screen and (max-width: 480px){
+			
+			.wrapper{
+				margin-left: 0;
+				margin-right: 0;
+			}
+			
+			.box{
+				width: 100%;
+				padding-bottom: 100%;
+			}
+		}
+	</style>
+	
+</head>
+
+<body class="galleryBody">
+	
+<div class="titlegallery">
+	<a href="index.html"><img src="asset/logo.png" class="logo" alt=""></a><br>
+	<h1>
+	Please take a look
+	</h1>
+	</div>
+	<div class="wrapper">
+		<div class="box">
+			<div class="innerContent">
+				<a data-fancybox="gallery" href="asset/20180326_161734.jpg"><img src="asset/20180326_161734.jpg"></a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="innerContent">
+				<a data-fancybox="gallery" href="asset/20180326_161837.jpg"><img src="asset/20180326_161837.jpg"></a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="innerContent">
+				<a data-fancybox="gallery" href="asset/20180523_181446.jpg"><img src="asset/20180523_181446.jpg"></a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="innerContent">
+				<a data-fancybox="gallery" href="asset/20180621_122243 (1).jpg"><img src="asset/20180621_122243 (1).jpg"></a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="innerContent">
+				<a data-fancybox="gallery" href="asset/barryad1.4.jpg"><img src="asset/barryad1.4.jpg"></a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="innerContent">
+				<a data-fancybox="gallery" href="asset/infographic4print.jpg"><img src="asset/infographic4print.jpg"></a>
+			</div>
+		</div><div class="box">
+			<div class="innerContent">
+				<a data-fancybox="gallery" href="asset/"><img src="DecidueyeSquareSmall.jpg"></a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="innerContent">
+				<a data-fancybox="gallery" href="DecidueyeSquareLarge.jpg"><img src="DecidueyeSquareSmall.jpg"></a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="innerContent">
+				<a data-fancybox="gallery" href="DecidueyeSquareLarge.jpg"><img src="DecidueyeSquareSmall.jpg"></a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="innerContent">
+				<a data-fancybox="gallery" href="DecidueyeSquareLarge.jpg"><img src="DecidueyeSquareSmall.jpg"></a>
+			</div>
+		</div>
+	</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+<script src="js/site.js"></script>
+
+	</body>
+</html>
