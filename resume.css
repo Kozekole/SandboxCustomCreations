@@ -15,11 +15,10 @@ h1{
 }
 .logo {
   position: relative;
-  margin-top: 5vh;
+  margin-top: 2vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:50%;
 }
 .main{
 	position: relative;
