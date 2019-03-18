@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+		html{
+    background:url('asset/Asset 10.png') repeat-y center center;
+    min-height:100%;
+    background-size:cover;
+	font-size:62.5%;
+}
+h1{
+	color: white;
+	position: relative;
+	left: 25%;
+}
+.main{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	left:11vw;
+	margin-top: 10%;
+}
+.pic{
+	height: 100%;
+		width:75vw;
+}
